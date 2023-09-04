@@ -21,6 +21,7 @@ const createServer = async (container) => {
     },
   ]);
 
+  // manual routing untu root path
   await server.route({
     method: 'GET',
     path: '/',
